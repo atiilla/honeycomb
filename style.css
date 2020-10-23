@@ -179,6 +179,14 @@ body {
    margin:0 auto;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    #info{
+        left: 18% !important;
+    }
+}
+
 .modal-content {
 
     border-radius: 90% 100% / 90% 100% !important;
