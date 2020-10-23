@@ -171,8 +171,13 @@ body {
 
 .modal-header {
     border-bottom:0!important;
+    padding: 0!important;
 }
 
+.modal-content {
+
+    border-radius: 90% 100% / 90% 100% !important;
+}
 .modal{
     top:30% !important;
     left:40% !important;
