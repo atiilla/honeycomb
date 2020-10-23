@@ -89,13 +89,12 @@ body {
 
 .honeycomb-cell:hover .honeycomb-cell__title {
     opacity: 0.4;
-    
+
 }
 
 .honeycomb-cell:hover::before {
     background: rgb(79, 80, 23);
-    color:#fff
-
+    color: #fff
 }
 
 .honeycomb-cell:hover::after {
@@ -160,29 +159,35 @@ body {
 }
 
 .petek {
-    background-color: #eab822!important;
-    border:0 !important;
-    
+    background-color: #eab822 !important;
+    border: 0 !important;
+    border-radius: 90% 100% / 90% 100% !important;
+    width: 100% !important;
+    top: 3%;
+
 }
 
-.petek:hover::before{
-    background-color:  #eab822!important;
+.petek:hover::before {
+    background-color: #eab822 !important;
 }
-
+.modal-dialog{
+    bottom: 40%;
+}
 .modal-header {
-    border-bottom:0!important;
-    padding: 0!important;
-    display:contents !important;
+    border-bottom: 0 !important;
+    padding: 0 !important;
+    display: contents !important;
 }
 
-.modal-header img{
-   margin:0 auto;
+.modal-header img {
+    margin: 0 auto;
+    width: 75%;
 }
 
 
 
 @media only screen and (max-width: 600px) {
-    #info{
+    #info {
         left: 18% !important;
     }
 }
@@ -191,10 +196,12 @@ body {
 
     border-radius: 90% 100% / 90% 100% !important;
 }
-.modal{
-    top:30% !important;
-    left:40% !important;
+
+.modal {
+    top: 30% !important;
+    left: 40% !important;
 }
+
 .hex {
     margin-top: 30px;
     width: 104px;
@@ -204,9 +211,11 @@ body {
     position: relative;
     display: inline-block;
 }
+
 .hex:before {
     content: " ";
-    width: 0; height: 0;
+    width: 0;
+    height: 0;
     border-bottom: 30px solid;
     border-color: inherit;
     border-left: 52px solid transparent;
@@ -214,6 +223,7 @@ body {
     position: absolute;
     top: -30px;
 }
+
 .hex:after {
     content: "";
     width: 0;
