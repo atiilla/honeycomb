@@ -172,6 +172,11 @@ body {
 .modal-header {
     border-bottom:0!important;
     padding: 0!important;
+    display:contents !important;
+}
+
+.modal-header img{
+   margin:0 auto;
 }
 
 .modal-content {

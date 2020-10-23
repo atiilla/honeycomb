@@ -11,7 +11,7 @@ cell.forEach(cell => {
         console.log(event.target.innerHTML)
         
         modal_title.innerHTML= event.target.innerHTML
-        modal_body.innerHTML="This is COOL!"
+        // modal_body.innerHTML="This is COOL!"
     })
 
 })
